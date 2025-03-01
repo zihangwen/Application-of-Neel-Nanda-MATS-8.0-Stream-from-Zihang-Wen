@@ -213,10 +213,10 @@ for data_i in data_random_number:
             
     answer_dict[data_i] = answer_list
 
-with open("answer_dict_truncate_paragraph_math500.pkl", "wb") as f:
+with open("data/answer_dict_truncate_paragraph_math500.pkl", "wb") as f:
     pickle.dump(answer_dict, f)
 
 
 # %%
-with open("answer_dict_truncate_paragraph_math500.pkl", "rb") as f:
-    answer_dict_reload = pickle.load(f)
+# with open("data/answer_dict_truncate_paragraph_math500.pkl", "rb") as f:
+#     answer_dict_reload = pickle.load(f)
